@@ -1,0 +1,77 @@
+<!DOCTYPE html >
+< html  lang =" fr " >
+< tête >
+    < jeu de caractères méta  =" UTF-8 " >
+    < meta  http-equiv =" X-UA-Compatible " content =" IE=edge " >
+    < meta  name =" viewport " content =" width=device-width, initial-scale=1.0 " >
+    < titre > Document </ titre >
+    < lien  rel =" feuille de style " href =" style.css " >
+</ tête >
+< corps >
+    
+    < div  class =" galerie-vidéo " >
+        < div  class =" vidéo-vedette " >
+            < h2 > Vidéo en vedette </ h2 >
+            < div  class =" carte-vidéo " onclick =" playVideo('videos/video3.mp4') " >
+                < img  src =" images/thumbnail3.png " alt ="" >
+                < h3 > Comment devenir bon en photographie </ h3 >
+
+                < img  class =" play-icon " src =" images/play-icon.png " alt ="" >
+            </ div >
+        </ div >
+
+        < h2  class =" related-videos-title " > Vidéos similaires </ h2 >
+
+        < div  class =" vidéos-liées " >
+            < div  class =" carte-vidéo " onclick =" playVideo('videos/video1.mp4') " >
+                
+                < classe div  =" vignette " >
+                    < img  src =" images/thumbnail1.png " alt ="" >
+
+                    < img  class =" play-icon " src =" images/play-icon.png " alt ="" >
+                </ div >
+                
+                < h3 > Enregistrez des vidéos de haute qualité </ h3 >
+
+                
+            </ div >
+
+            < div  class =" carte-vidéo " onclick =" playVideo('videos/video2.mp4') " >
+                
+                < classe div  =" vignette " >
+                    < img  src =" images/thumbnail2.png " alt ="" >
+
+                    < img  class =" play-icon " src =" images/play-icon.png " alt ="" >
+                </ div >
+                
+                < h3 > Photographie Smartphone </ h3 >
+                
+            </ div >
+
+            < div  class =" carte-vidéo " onclick =" playVideo('videos/video4.mp4') " >
+                
+                < classe div =" vignette " >
+                    < img  src =" images/thumbnail4.png " alt ="" >
+
+                    < img  class =" play-icon " src =" images/play-icon.png " alt ="" >
+                </ div >
+                
+                < h3 > Principes de base de l'appareil photo reflex numérique </ h3 >
+    
+            </ div >
+        </ div >
+    </ div >
+
+
+    < div  class =" vidéo " >
+        < contrôle vidéo  autoplay class =" videoPlayer " >  
+            < source  src =" videos/video1.mp4 " type =" video/mp4 " >
+        </ vidéo >
+
+        < div  class =" close-btn " > + </ div >
+    </ div >
+
+    < script  src =" main.js " > </ script >
+
+</ corps >
+</ html >
